@@ -6,6 +6,8 @@ def srednia_kwad(lista):
     sprawdz(lista)
     if sprawdz(lista) == False:
         raise IBeBack()
+    if sprawdz(lista) == True:
+        print 'OK'
     suma = 0
     zmiena = 2
     for i in lista:
